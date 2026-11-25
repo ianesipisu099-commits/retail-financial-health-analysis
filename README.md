@@ -104,22 +104,37 @@ The Power BI report contains five pages, with shared fiscal-year and segment fil
 | Cash Flow | Free cash flow versus shareholder payouts, cash conversion, and FCF-margin trends |
 | Company Profile | Drill-through seven-year financial profile for an individual retailer, including interest-coverage basis |
 
-### Dashboard Preview
+## Dashboard Preview
 
-Dashboard screenshots can be added to the `screenshots/` directory using the filenames below:
+### 1. Executive Summary
 
-- `screenshots/01_executive_summary.png`
-- `screenshots/02_profitability.png`
-- `screenshots/03_liquidity_leverage.png`
-- `screenshots/04_cash_flow.png`
-- `screenshots/05_company_profile.png`
+Provides an overview of the financial performance of the selected retailers, bringing together headline KPIs, profitability trends, operating-margin comparisons, and a company scorecard to highlight differences across the retail group.
 
-Example Markdown image syntax:
-
-```md
 ![Executive Summary](screenshots/01_executive_summary.png)
-```
 
+### 2. Profitability
+
+Compares retailer profitability through gross margin, operating margin, net margin, and return on invested capital. The page helps identify which companies generate stronger returns and how profitability has evolved over the seven-year period.
+
+![Profitability](screenshots/02_profitability.png)
+
+### 3. Liquidity & Leverage
+
+Examines short-term liquidity and debt exposure across the retailers, including the impact of operating lease liabilities on leverage. It highlights differences in financial risk that may not be apparent from profitability alone.
+
+![Liquidity & Leverage](screenshots/03_liquidity_leverage.png)
+
+### 4. Cash Flow
+
+Evaluates free cash flow generation, cash conversion, and shareholder payouts. The page compares retailers' ability to generate cash and highlights periods where cash generation weakened or payouts exceeded free cash flow.
+
+![Cash Flow](screenshots/04_cash_flow.png)
+
+### 5. Company Profile
+
+Provides a drill-through view of an individual retailer's financial profile across seven years. Users can examine company-specific trends and metrics in greater detail, including the basis used for interest coverage.
+
+![Company Profile](screenshots/05_company_profile.png)
 ---
 
 ## Validation and Data Quality
