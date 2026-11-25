@@ -137,6 +137,17 @@ Provides a drill-through view of an individual retailer's financial profile acro
 ![Company Profile](screenshots/05_company_profile.png)
 ---
 
+## Interactive Power BI Report
+
+The full interactive dashboard is available for download as a Power BI Desktop report.
+
+**[Download the Interactive Power BI Report (.pbix)](powerbi/retail_financial_health.pbix)**
+
+Download the file and open it in Power BI Desktop to explore all five report pages, interact with the fiscal-year and segment filters, and examine the financial metrics and company-level analysis.
+
+The report is provided as a `.pbix` file for interactive exploration.
+---
+
 ## Validation and Data Quality
 
 ### Independent SQL and Excel validation
@@ -202,12 +213,19 @@ The SQL data-quality log in `sql/01_build_database.sql` (section 7d) documents d
 ```text
 ├── README.md
 ├── python/
-│   └── pull_sec.py                 SEC data extraction
+│   └── pull_sec.py                     SEC data extraction
 ├── sql/
-│   └── 01_build_database.sql       Schema, cleaning, corrections, ratios, checks
+│   └── 01_build_database.sql           Schema, cleaning, corrections, ratios, checks
 ├── docs/
-│   └── data_dictionary.md          Definitions and analytical conventions
-└── screenshots/                    Power BI dashboard screenshots
+│   └── data_dictionary.md              Definitions and analytical conventions
+├── powerbi/
+│   └── retail_financial_health.pbix    Interactive Power BI report
+└── screenshots/
+    ├── 01_executive_summary.png
+    ├── 02_profitability.png
+    ├── 03_liquidity_leverage.png
+    ├── 04_cash_flow.png
+    └── 05_company_profile.png
 ```
 
 ---
