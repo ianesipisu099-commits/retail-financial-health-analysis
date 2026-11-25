@@ -146,6 +146,7 @@ The full interactive dashboard is available for download as a Power BI Desktop r
 Download the file and open it in Power BI Desktop to explore all five report pages, interact with the fiscal-year and segment filters, and examine the financial metrics and company-level analysis.
 
 The report is provided as a `.pbix` file for interactive exploration.
+
 ---
 
 ## Validation and Data Quality
